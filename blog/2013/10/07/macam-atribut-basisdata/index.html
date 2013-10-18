@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
+  <title>Key & Atribut dalam Basisdata - My Octopress Blog</title>
   <meta name="author" content="Endro">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://klewoood.github.io/octotesting">
+  <link rel="canonical" href="http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata">
   <link href="/octotesting/favicon.png" rel="icon">
   <link href="/octotesting/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/octotesting/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/octotesting/blog/2013/10/07/macam-atribut-basisdata/">Key & Atribut Dalam Basisdata</a></h1>
+      <h1 class="entry-title">Key & Atribut Dalam Basisdata</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Atribut dalam basisdata menurut bahasa penulis sendiri semacam kolom data yang dinamakan sedemikian rupa untuk pebentukan karakteristik atau nilai yang melekat pada sebuah table. contoh dalam sebuah table buku memiliki atribut antara lain id_buku, judul, pengarang, penerbit. dalam table gudang ada atribut no_barang, nama_barang, jenis, harga, dll. itu adalah sebagian kecil contoh sebuah atribut dalam sebuah basisdata. penamaan atribut ini difungsikan bedasarkan nilai dari isi tiap-tiap table yang bersangkutan.</p>
+<div class="entry-content"><p>Atribut dalam basisdata menurut bahasa penulis sendiri semacam kolom data yang dinamakan sedemikian rupa untuk pebentukan karakteristik atau nilai yang melekat pada sebuah table. contoh dalam sebuah table buku memiliki atribut antara lain id_buku, judul, pengarang, penerbit. dalam table gudang ada atribut no_barang, nama_barang, jenis, harga, dll. itu adalah sebagian kecil contoh sebuah atribut dalam sebuah basisdata. penamaan atribut ini difungsikan bedasarkan nilai dari isi tiap-tiap table yang bersangkutan.</p>
 
 
 <p>Dan pada sebuah basisdata, atribut dibedakan berdasarkan beberapa pengelompokan yaitu:</p>
@@ -102,65 +99,75 @@
 
 <ul>
 <li>Atribut sederhana (simple attribute) adalah atribut yang sudah tidak dapat dipilah lagi.</li>
-<li>Atribut komposit (composite attribute) adalaha atribut yang masih bias dipecah atau diuraikan menjadi beberapa bagian (sub atribut) yang tiap uraian tersebut </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/octotesting/blog/2013/10/07/macam-atribut-basisdata/">Read on &rarr;</a>
-    </footer>
-  
+<li>Atribut komposit (composite attribute) adalaha atribut yang masih bias dipecah atau diuraikan menjadi beberapa bagian (sub atribut) yang tiap uraian tersebut <!--more-->memiliki suatu makna dalam suatu sistem. Contoh nya seperti atribut alamat yang bisa dipecah menjadi atribut jalan, kota, kodepost.</li>
+<li>Atribut bernilai tunggal (single-value attribute) yaitu atribut yang dimana dia hanya memiliki 1 nilai dari tiap-tiap baris data. Karna sebuah atribut hanya membperbolehkan 1 nilai maka jika ada seorang mahasiswa yang memiliki 2 alamat tempat tinggal, maka hanya salah satu saja yang boleh ditulis.</li>
+<li>Atribut bernilai banyak (Multivalued attribute) adalah kebalikan dari attribute tunggal, yaitu atribut yang nilai nya berisi lebih dari satu nilai. Misalnya saya mempunyai atribut jenis_minuman yang nilainya berisi coca-cola, aqua, teh kotak, dll. Jika didalam isi nilai tersebut tidak akan pernah diisi sama sekali, inipun masih diperbolehkan karena jenis dari atribut ini tergolong atribut bernilai banyak.</li>
+<li>Atribut mandarory, suatu atribut pada tabel yang pada umumnya wajib diberi nilai dan atribut ini disebut atribut mandatory. Misalnya sebuah tabel buku terdapat atrtibut id_buku, nama_buku, pengarang dan sebagainya dapat digolongkan atribut mandatory, karna tiap-tiap atribut di isi dengan nilai dan memang harus diisi.</li>
+<li>Atribut non mandatory, Adakalanya suatu atribut kadangkala ada yang boleh dikosongkan, nilai tersebut yang dinamakan sebagai atribut non mandatory attribute. dan ketika sebuah atribut tersebut tidak bersifat non mandatory nilai yang digunakan pada atribut tersebut adalah <b>Null</b>.</li>
+<li>Atribut turunan <em>(derived attribute)</em> adalah atribut yang nilai-nilainya diperoleh dari gabungan, pengolahan atau turunan dari atribut lain yang saling berhubungan. sebenarnya atribut ini ini dapt ditiadakan dari sebuah table, karena nilai-nilai tersebut bergantung pada nilai yang ada pada atribut lainya.</li>
+</ul>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/octotesting/blog/2013/09/09/hello-word/">Hello World</a></h1>
-    
-    
-      <p class="meta">
-        
+<p>Selain atribut ada juga yang namanya key atau kunci, Key adalah suatu gabungan atau satu dari beberapa atribut yang akan membedakan semua isi dari baris data didalam sebuah tabel secara unik. jadi apabila ada atribut yang telah dijadikan sebagai sebuah key, maka tidak boleh ada isi dari baris data yang bernilai sama dengan atribut tersebut.</p>
 
 
 
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-09T19:37:00+07:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hello world..</p>
-
-<p>Ini yang ku ucapkan pada blog pertamaku ini, mungkin dengan blog ini kedepan akan memuat tulisan dengan inspirasi apa yang ada dalam pikiran ku yang memungkinkan kumuat disini, dan kenapa saya menggunakan octopress? Karna ketika menggunakan octopress saya seperti seorang hacker :3 #becanda :D
-Sebenarnya simple, saya hanya ingin belajar menulis. </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/octotesting/blog/2013/09/09/hello-word/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/octotesting/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Endro</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-07T19:32:00+07:00" pubdate data-updated="true">Oct 7<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/octotesting/blog/categories/basisdata/'>basisdata</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="/octotesting//twitter.com/share" class="twitter-share-button" data-url="http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata/" data-via="gondoklongor" data-counturl="http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/octotesting/blog/2013/09/09/hello-word/" title="Previous Post: hello world">&laquo; hello world</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -181,7 +188,7 @@ Sebenarnya simple, saya hanya ingin belajar menulis. </div>
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/klewoood">@klewoood</a> on GitHub
@@ -213,6 +220,7 @@ Sebenarnya simple, saya hanya ingin belajar menulis. </div>
 
   
 </aside>
+
 
     </div>
   </div>

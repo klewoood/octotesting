@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: basisdata | My Octopress Blog]]></title>
+  <link href="http://klewoood.github.io/octotesting/blog/categories/basisdata/atom.xml" rel="self"/>
+  <link href="http://klewoood.github.io/octotesting/"/>
+  <updated>2013-10-18T19:58:14+07:00</updated>
+  <id>http://klewoood.github.io/octotesting/</id>
+  <author>
+    <name><![CDATA[Endro]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Key & Atribut dalam Basisdata]]></title>
+    <link href="http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata/"/>
+    <updated>2013-10-07T19:32:00+07:00</updated>
+    <id>http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata</id>
+    <content type="html"><![CDATA[<p>Atribut dalam basisdata menurut bahasa penulis sendiri semacam kolom data yang dinamakan sedemikian rupa untuk pebentukan karakteristik atau nilai yang melekat pada sebuah table. contoh dalam sebuah table buku memiliki atribut antara lain id_buku, judul, pengarang, penerbit. dalam table gudang ada atribut no_barang, nama_barang, jenis, harga, dll. itu adalah sebagian kecil contoh sebuah atribut dalam sebuah basisdata. penamaan atribut ini difungsikan bedasarkan nilai dari isi tiap-tiap table yang bersangkutan.</p>
+
+
+<p>Dan pada sebuah basisdata, atribut dibedakan berdasarkan beberapa pengelompokan yaitu:</p>
+
+
+<ul>
+<li>Atribut sederhana (simple attribute) adalah atribut yang sudah tidak dapat dipilah lagi.</li>
+<li>Atribut komposit (composite attribute) adalaha atribut yang masih bias dipecah atau diuraikan menjadi beberapa bagian (sub atribut) yang tiap uraian tersebut <!--more-->memiliki suatu makna dalam suatu sistem. Contoh nya seperti atribut alamat yang bisa dipecah menjadi atribut jalan, kota, kodepost.</li>
+<li>Atribut bernilai tunggal (single-value attribute) yaitu atribut yang dimana dia hanya memiliki 1 nilai dari tiap-tiap baris data. Karna sebuah atribut hanya membperbolehkan 1 nilai maka jika ada seorang mahasiswa yang memiliki 2 alamat tempat tinggal, maka hanya salah satu saja yang boleh ditulis.</li>
+<li>Atribut bernilai banyak (Multivalued attribute) adalah kebalikan dari attribute tunggal, yaitu atribut yang nilai nya berisi lebih dari satu nilai. Misalnya saya mempunyai atribut jenis_minuman yang nilainya berisi coca-cola, aqua, teh kotak, dll. Jika didalam isi nilai tersebut tidak akan pernah diisi sama sekali, inipun masih diperbolehkan karena jenis dari atribut ini tergolong atribut bernilai banyak.</li>
+<li>Atribut mandarory, suatu atribut pada tabel yang pada umumnya wajib diberi nilai dan atribut ini disebut atribut mandatory. Misalnya sebuah tabel buku terdapat atrtibut id_buku, nama_buku, pengarang dan sebagainya dapat digolongkan atribut mandatory, karna tiap-tiap atribut di isi dengan nilai dan memang harus diisi.</li>
+<li>Atribut non mandatory, Adakalanya suatu atribut kadangkala ada yang boleh dikosongkan, nilai tersebut yang dinamakan sebagai atribut non mandatory attribute. dan ketika sebuah atribut tersebut tidak bersifat non mandatory nilai yang digunakan pada atribut tersebut adalah <b>Null</b>.</li>
+<li>Atribut turunan <em>(derived attribute)</em> adalah atribut yang nilai-nilainya diperoleh dari gabungan, pengolahan atau turunan dari atribut lain yang saling berhubungan. sebenarnya atribut ini ini dapt ditiadakan dari sebuah table, karena nilai-nilai tersebut bergantung pada nilai yang ada pada atribut lainya.</li>
+</ul>
+
+
+<p>Selain atribut ada juga yang namanya key atau kunci, Key adalah suatu gabungan atau satu dari beberapa atribut yang akan membedakan semua isi dari baris data didalam sebuah tabel secara unik. jadi apabila ada atribut yang telah dijadikan sebagai sebuah key, maka tidak boleh ada isi dari baris data yang bernilai sama dengan atribut tersebut.</p>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

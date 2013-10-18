@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://klewoood.github.io/octotesting/sitemap.xml 

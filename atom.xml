@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://klewoood.github.io/octotesting/atom.xml" rel="self"/>
+  <link href="http://klewoood.github.io/octotesting/"/>
+  <updated>2013-10-18T19:58:14+07:00</updated>
+  <id>http://klewoood.github.io/octotesting/</id>
+  <author>
+    <name><![CDATA[Endro]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Key & Atribut dalam Basisdata]]></title>
+    <link href="http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata/"/>
+    <updated>2013-10-07T19:32:00+07:00</updated>
+    <id>http://klewoood.github.io/octotesting/blog/2013/10/07/macam-atribut-basisdata</id>
+    <content type="html"><![CDATA[<p>Atribut dalam basisdata menurut bahasa penulis sendiri semacam kolom data yang dinamakan sedemikian rupa untuk pebentukan karakteristik atau nilai yang melekat pada sebuah table. contoh dalam sebuah table buku memiliki atribut antara lain id_buku, judul, pengarang, penerbit. dalam table gudang ada atribut no_barang, nama_barang, jenis, harga, dll. itu adalah sebagian kecil contoh sebuah atribut dalam sebuah basisdata. penamaan atribut ini difungsikan bedasarkan nilai dari isi tiap-tiap table yang bersangkutan.</p>
+
+
+<p>Dan pada sebuah basisdata, atribut dibedakan berdasarkan beberapa pengelompokan yaitu:</p>
+
+
+<ul>
+<li>Atribut sederhana (simple attribute) adalah atribut yang sudah tidak dapat dipilah lagi.</li>
+<li>Atribut komposit (composite attribute) adalaha atribut yang masih bias dipecah atau diuraikan menjadi beberapa bagian (sub atribut) yang tiap uraian tersebut <!--more-->memiliki suatu makna dalam suatu sistem. Contoh nya seperti atribut alamat yang bisa dipecah menjadi atribut jalan, kota, kodepost.</li>
+<li>Atribut bernilai tunggal (single-value attribute) yaitu atribut yang dimana dia hanya memiliki 1 nilai dari tiap-tiap baris data. Karna sebuah atribut hanya membperbolehkan 1 nilai maka jika ada seorang mahasiswa yang memiliki 2 alamat tempat tinggal, maka hanya salah satu saja yang boleh ditulis.</li>
+<li>Atribut bernilai banyak (Multivalued attribute) adalah kebalikan dari attribute tunggal, yaitu atribut yang nilai nya berisi lebih dari satu nilai. Misalnya saya mempunyai atribut jenis_minuman yang nilainya berisi coca-cola, aqua, teh kotak, dll. Jika didalam isi nilai tersebut tidak akan pernah diisi sama sekali, inipun masih diperbolehkan karena jenis dari atribut ini tergolong atribut bernilai banyak.</li>
+<li>Atribut mandarory, suatu atribut pada tabel yang pada umumnya wajib diberi nilai dan atribut ini disebut atribut mandatory. Misalnya sebuah tabel buku terdapat atrtibut id_buku, nama_buku, pengarang dan sebagainya dapat digolongkan atribut mandatory, karna tiap-tiap atribut di isi dengan nilai dan memang harus diisi.</li>
+<li>Atribut non mandatory, Adakalanya suatu atribut kadangkala ada yang boleh dikosongkan, nilai tersebut yang dinamakan sebagai atribut non mandatory attribute. dan ketika sebuah atribut tersebut tidak bersifat non mandatory nilai yang digunakan pada atribut tersebut adalah <b>Null</b>.</li>
+<li>Atribut turunan <em>(derived attribute)</em> adalah atribut yang nilai-nilainya diperoleh dari gabungan, pengolahan atau turunan dari atribut lain yang saling berhubungan. sebenarnya atribut ini ini dapt ditiadakan dari sebuah table, karena nilai-nilai tersebut bergantung pada nilai yang ada pada atribut lainya.</li>
+</ul>
+
+
+<p>Selain atribut ada juga yang namanya key atau kunci, Key adalah suatu gabungan atau satu dari beberapa atribut yang akan membedakan semua isi dari baris data didalam sebuah tabel secara unik. jadi apabila ada atribut yang telah dijadikan sebagai sebuah key, maka tidak boleh ada isi dari baris data yang bernilai sama dengan atribut tersebut.</p>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[hello world]]></title>
+    <link href="http://klewoood.github.io/octotesting/blog/2013/09/09/hello-word/"/>
+    <updated>2013-09-09T19:37:00+07:00</updated>
+    <id>http://klewoood.github.io/octotesting/blog/2013/09/09/hello-word</id>
+    <content type="html"><![CDATA[<p>Hello world..</p>
+
+<p>Ini yang ku ucapkan pada blog pertamaku ini, mungkin dengan blog ini kedepan akan memuat tulisan dengan inspirasi apa yang ada dalam pikiran ku yang memungkinkan kumuat disini, dan kenapa saya menggunakan octopress? Karna ketika menggunakan octopress saya seperti seorang hacker :3 #becanda :D
+Sebenarnya simple, saya hanya ingin belajar menulis. <!--more-->terkadang ada inspirasi untuk menulis sesuatu, tapi ya itu tadi karna saya orangnya agak pemalas jadi ya kadang hanya hilang di anggan-anggan juga. maka dari itu dibuatlah blog ini buat sarana &ldquo;inggin ngoceh ditulisan aja&rdquo; &amp; mungkin belajar menggunakan octopress ini. :D . Sebetulnya sebelumnya saya sudah punya blog pribadi, tapi disono lebih banyak hasil dari copas dari blog &amp; website orang juga sih, jadi walau keren ya merasa bukan seperti hasil karya sendiri.</p>
+
+<p>Okay sudah dulu ya intermezzonya, kembali ke topik utama.
+Sebenarnya ucapan ini (hello world) sering digunakan untuk pertama kali menampilkan sesuatu yang baru dimulai pada dunia pemrogramman. dan cara kerjanya pun simple, kita tinggal menampilkan kalimat “hello world” pada tampilan layar desktop tentunya dengan syntak bahasa pemrograman yang dimaksud. bisa dibilang ini sebagai tradisi untuk memulai bahasa pemrogramman untuk memulai suatu bahasa itu.
+Sebetulnya didalam pemanggilan ini tidak harus menggunakan kata “Hello world” saja, kita boleh menggunakan kata-kata lain, misalnya “Hello mas paijo“, “Say, hello bro” bahkan menampilkan tulisan “h3L0 Tw4y4nK, 1nH1 pRgr4m per1 kHu lHo” juga bisa, tapi yang terakhir ini tidak disarankan, walaupun itu bisa. :D Simple khan, untuk pertama memang cuma menampilkan tulisan itu pada layar desktop. tapi untuk selanjutnya kita harus mempelajari juga bagaimana menginputkan dari keyboard, menampiklan ulang hasil yang di imputkan, memproses hasil inputan, dll.
+Contoh penulisan menggunakan salah satu bahasa pemrogramman java..</p>
+
+<figure class='code'><figcaption><span>Java programing - Class Hello </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Hello</span><span class="o">{</span>
+</span><span class='line'>  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+</span><span class='line'>      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Say, Hello&quot;</span><span class="o">);</span>
+</span><span class='line'>  <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Dan hasil dari compile tersebut akan menghasilkan output seperti ini</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Say, hello</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Sebetulnya ada yang harus saya sampaikan arti dari tulisan berkode (Baca : syntax) tersebut. tapi ya karna topik yang saya unggah disini tentang tampilan hello world mungkin &ldquo;insyaallah&rdquo; topik berikutnya akan saya jelaskan. :)</p>
+
+<p>Untuk penulisan ini ada 2 cara untuk mengcompile (mengesekusi)</p>
+
+<pre><code>Dengan menggunakan IDE
+Dengan menggunakan Editor
+</code></pre>
+
+<p>Lha yang saya pake diatas masih menggunakan cara nomer 2, yaitu dengan Editor. tapi sebelumnya kita harus setting pacth nya terlebih dahulu. Contoh Editor itu kaya Notpad, Gedit, Vim, Notpat++, Geany, dll. bahkan kalo mau pake Microsoft word nga’ papa, asalkan waktu nyimpen nya pake .java bukan .doc :D</p>
+
+<p>Kalo mau pake IDE (Integrated Development Environment) malah mudah lagi, kita tinggal ketik trus compile langsung deh tampa perantara command prompt atau terminal lagi. IDE itu sebetulnya itu sebuah gabungan dari editor, debuger, linker, compiler, enterprenter, dll. fungsinya hanya untuk mempermudah developer untuk mengembangkan applikasinya. contoh nya kaya Eclipce, Netbeans, CodeBlocks, dll :)</p>
+
+<p>Mungkin segitu dulu dari saya tentang ucapan selamat datang kali ini dan salam kenal semuanya :D</p>
+]]></content>
+  </entry>
+  
+</feed>
